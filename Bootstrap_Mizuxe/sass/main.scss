@@ -31,6 +31,18 @@ body {
   }
 }
 
+.border-custom-primary {
+  border: 1px solid $primary;
+}
+
+.bg-custom-primary {
+  background: $primary;
+}
+
+.text-custom-primary {
+  color: $primary;
+}
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px;
@@ -38,5 +50,9 @@ body {
     h1 {
       font-size: 4rem;
     }
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
   }
 }
