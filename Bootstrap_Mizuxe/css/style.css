@@ -24,6 +24,9 @@ body {
 .border-custom-primary {
   border: 1px solid #3292a6; }
 
+.btn-custom-primary {
+  background: #3292a6; }
+
 .bg-custom-primary {
   background: #3292a6; }
 
