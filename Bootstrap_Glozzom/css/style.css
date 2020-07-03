@@ -47,3 +47,22 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
+
+#video-play {
+  position: relative;
+  /* ^^ We need to make it relative cause dark-overlay is absolute
+  and will go by everything that is relative */
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-attachment: fixed;
+  /* ^^ 'fixed' will give kind of a parallax effect */
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  /* ^^ moving the background image up 300px */
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
